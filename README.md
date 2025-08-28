@@ -27,5 +27,5 @@ Passionate about creating engaging player experiences and improving development 
 
 ## Links
 - [GitHub Profile](https://github.com/BlackJackinBox)  
-- [Itch.io (portfolio)](https://blackjackinbox.itch.io)
+- [Itch.io](https://blackjackinbox.itch.io)
 - 📧 Email: blackjackinbox@gmail.com
