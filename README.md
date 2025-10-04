@@ -29,6 +29,8 @@ Passionate about creating engaging player experiences and improving development 
 
 <details>
   <summary><strong>Dungeon Dominator</strong> — System Designer / Content Designer, UE5</summary>
+  
+  <div markdown='1'>
 
   ### About the Project
   A fantasy Dungeon management game developed in Unreal Engine 5 for PC.
@@ -47,6 +49,8 @@ Passionate about creating engaging player experiences and improving development 
   ### Project Materials
   Publicly available gameplay footage and visual materials — reflecting the results of my design work — can be found on the official Telegram channel:  
   [https://t.me/ShelterDungeongame](https://t.me/ShelterDungeongame)
+
+  </div>
 
 </details>
 
