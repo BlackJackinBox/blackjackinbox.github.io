@@ -65,7 +65,7 @@ Passionate about creating engaging player experiences and improving development 
 
   <h4>About the Project</h4>
   <p>
-    A side-scrolling <strong>metroidvania</strong> inspired by <em>Pitfall</em>, <em>Ori</em>, and <em>Hollow Knight</em>, set in a <strong>Mesoamerican-inspired world</strong>.<br>
+    A 2D side-scrolling <strong>metroidvania</strong> inspired by <em>Pitfall</em>, <em>Ori</em>, and <em>Hollow Knight</em>, set in a <strong>Mesoamerican-inspired world</strong>.<br>
     Developed in Unity as a passion project without external funding.<br>
     The design included seven planned biomes, multiple boss encounters, and an emphasis on exploration and environmental storytelling.
   </p>
@@ -96,22 +96,25 @@ Passionate about creating engaging player experiences and improving development 
   <a href="images/photo_2024-08-11_20-02-43.jpg" target="_blank">
     <img src="images/photo_2024-08-11_20-02-43.jpg" alt="Vivo entre Los Muertos — Screenshot 3" width="360">
   </a>
+  <a href="images/photo_2023-07-01_21-42-16.jpg" target="_blank">
+    <img src="images/photo_2023-07-01_21-42-16.jpg" alt="Vivo entre Los Muertos — Screenshot 4" width="360">
+  </a>
 </p>
 
 <p>
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=l5HTd_IAmmI" title="Vivo entre Los Muertos — Teaser" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/l5HTd_IAmmI" title="Vivo entre Los Muertos — Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 <p>
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=jOMC-22at2g" title="Vivo entre Los Muertos — Art" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jOMC-22at2g" title="Vivo entre Los Muertos — Art" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 <p>
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=caZvm6MS2JQ" title="Vivo entre Los Muertos — Movement" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/caZvm6MS2JQ" title="Vivo entre Los Muertos — Movement" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 <p>
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=L2x1uiXZY7k" title="Vivo entre Los Muertos — Puzzle Gameplay" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/L2x1uiXZY7k" title="Vivo entre Los Muertos — Puzzle Gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 </details>
