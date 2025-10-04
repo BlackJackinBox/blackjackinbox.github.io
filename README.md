@@ -283,7 +283,7 @@ Passionate about creating engaging player experiences and improving development 
 </details>
 
 <details>
-  <summary><strong>Welcome to the Karoshi Club</strong> — Localization QA / Localization (RU→JA)</summary>
+  <summary><strong>Welcome to the Karoshi Club</strong> — Localization QA (RU→JA)</summary>
 
   <h4>About the Project</h4>
   <p>
