@@ -29,28 +29,32 @@ Passionate about creating engaging player experiences and improving development 
 
 <details>
   <summary><strong>Dungeon Dominator</strong> — System Designer / Content Designer, UE5</summary>
-  
-  <div markdown='1'>
 
-  ### About the Project
-  A fantasy Dungeon management game developed in Unreal Engine 5 for PC.
-  Designed from a "ant-farm" perspective, focusing on base-building, exploration, and tactical encounters.
-  Currently in active production, developed by a small core team.
+  <h4>About the Project</h4>
+  <p>
+    A fantasy dungeon management game developed in Unreal Engine 5 for PC.<br>
+    Designed from a top-down, “ant-farm” perspective, focusing on base-building, exploration, and tactical encounters.<br>
+    Currently in active production, developed by a small core team.
+  </p>
 
-  ### Role and Responsibilities
-  — System design: core player interaction, meta-progression, economy, and event logic  
-  — Structured and maintained game design documentation (GDD)  
-  — Created balance sheets and coordinated integration between content and UI
+  <h4>Role and Responsibilities</h4>
+  <ul>
+    <li>System design: core player interaction, meta-progression, economy, and event logic</li>
+    <li>Structured and maintained game design documentation (GDD)</li>
+    <li>Created balance sheets and coordinated integration between content and UI</li>
+  </ul>
 
-  ### Results
-  — Created clear, consistent documentation for complex gameplay systems and content features  
-  — Improved overall design clarity and team communication
+  <h4>Results</h4>
+  <ul>
+    <li>Created clear, consistent documentation for complex gameplay systems and content features</li>
+    <li>Improved overall design clarity and team communication</li>
+  </ul>
 
-  ### Project Materials
-  Publicly available gameplay footage and visual materials — reflecting the results of my design work — can be found on the official Telegram channel:  
-  [https://t.me/ShelterDungeongame](https://t.me/ShelterDungeongame)
-
-  </div>
+  <h4>Project Materials</h4>
+  <p>
+    Publicly available gameplay footage and visual materials — including results of my design work — can be found on the official Telegram channel:<br>
+    <a href="https://t.me/ShelterDungeongame" target="_blank">https://t.me/ShelterDungeongame</a>
+  </p>
 
 </details>
 
