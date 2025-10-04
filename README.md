@@ -165,9 +165,51 @@ Passionate about creating engaging player experiences and improving development 
 </p>
 
 <p>
-  The playable version is available on the project page:<br>
+  Playable version available on itch.io:<br>
   <a href="https://blackjackinbox.itch.io/potions-of-proportions" target="_blank" rel="noopener noreferrer">https://blackjackinbox.itch.io/potions-of-proportions</a>
 </p>
+
+</details>
+
+<details>
+  <summary><strong>Bytes</strong> — Level Designer, Unity</summary>
+
+  <h4>About the Project</h4>
+  <p>
+    A short cyberpunk-themed prototype developed as part of the <strong>Arizona State University Video Game Development Club</strong>.<br>
+    Initially planned as a cyberpunk rogue-like, the project evolved into a simple room-exploration game focused on movement and environment transitions.<br>
+    Created as a learning experience emphasizing scope control and teamwork.
+  </p>
+
+  <h4>Role and Responsibilities</h4>
+  <ul>
+    <li><strong>Level Design:</strong> created interconnected room layouts supporting exploration and pacing</li>
+    <li>Worked closely with the design team to prototype spatial flow and navigation readability</li>
+  </ul>
+
+  <h4>Results</h4>
+  <ul>
+    <li>Developed a functional level structure demonstrating progression and spatial logic</li>
+    <li>Contributed to an educational project highlighting lessons in scope management and iteration</li>
+  </ul>
+
+  <h4>Project Materials</h4>
+
+  <p>
+    <a href="images/3.png" target="_blank"><img src="images/3.png" alt="Bytes Screenshot 1" width="360"></a>
+    <a href="images/5.png" target="_blank"><img src="images/5.png" alt="Bytes Screenshot 2" width="360"></a><br>
+    <a href="images/7.png" target="_blank"><img src="images/7.png" alt="Bytes Screenshot 3" width="360"></a>
+    <a href="images/8.png" target="_blank"><img src="images/8.png" alt="Bytes Screenshot 4" width="360"></a>
+  </p>
+
+  <p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZYxe4WO4R_Y" title="Bytes — Gameplay Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </p>
+
+  <p>
+    Playable version available on itch.io:<br>
+    <a href="https://heatwave-studios.itch.io/bytes" target="_blank" rel="noopener noreferrer">https://heatwave-studios.itch.io/bytes</a>
+  </p>
 
 </details>
 
