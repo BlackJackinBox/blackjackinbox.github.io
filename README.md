@@ -117,6 +117,11 @@ Passionate about creating engaging player experiences and improving development 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/L2x1uiXZY7k" title="Vivo entre Los Muertos — Puzzle Gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
+<p>
+  Official Steam page:<br>
+  <a href="https://store.steampowered.com/app/1058600/VeLM/" target="_blank" rel="noopener noreferrer">https://store.steampowered.com/app/1058600/VeLM/</a>
+</p>
+
 </details>
 
 <details>
@@ -217,7 +222,84 @@ Passionate about creating engaging player experiences and improving development 
 
 ### Localization Projects
 
+<details>
+  <summary><strong>Numeral Strike</strong> — Localization (RU→EN, RU→JA) / Localization QA</summary>
 
+  <h4>About the Project</h4>
+  <p>
+    Turn-based tactical roguelike available on Steam (demo version).<br>
+    Provided <strong>Russian-to-English</strong> and <strong>Russian-to-Japanese localization</strong> for the demo build,<br>
+    as well as <strong>localization quality assurance</strong> to ensure consistency, terminology accuracy, and clear gameplay communication across languages.
+  </p>
+
+  <h4>Project Page</h4>
+  <p>
+    Steam:<br>
+    <a href="https://store.steampowered.com/app/3708620/Numeral_Strike/" target="_blank" rel="noopener noreferrer">
+      https://store.steampowered.com/app/3708620/Numeral_Strike/
+    </a>
+  </p>
+
+</details>
+
+<details>
+  <summary><strong>Slay or Fall</strong> — Localization (RU→EN, RU→JA) / Localization QA</summary>
+
+  <h4>About the Project</h4>
+  <p>
+    2D roguelike available on Steam.<br>
+    Provided <strong>Russian-to-English</strong> and <strong>Russian-to-Japanese localization</strong> for in-game text, UI, and gameplay terminology,<br>
+    as well as <strong>localization quality assurance</strong> for consistency and readability across versions.
+  </p>
+
+  <h4>Project Page</h4>
+  <p>
+    Steam:<br>
+    <a href="https://store.steampowered.com/app/3170730/Slay_or_Fall/" target="_blank" rel="noopener noreferrer">
+      https://store.steampowered.com/app/3170730/Slay_or_Fall/
+    </a>
+  </p>
+
+</details>
+
+<details>
+  <summary><strong>Graces: Posthumous Wish</strong> — Localization (RU→JA) / Localization QA</summary>
+
+  <h4>About the Project</h4>
+  <p>
+    Visual novel released on Steam.<br>
+    Provided <strong>Russian-to-Japanese localization</strong> for all in-game text and UI,<br>
+    as well as <strong>localization quality assurance</strong> to ensure tone accuracy and linguistic consistency.
+  </p>
+
+  <h4>Project Page</h4>
+  <p>
+    Steam:<br>
+    <a href="https://store.steampowered.com/app/2899980" target="_blank" rel="noopener noreferrer">
+      https://store.steampowered.com/app/2899980
+    </a>
+  </p>
+
+</details>
+
+<details>
+  <summary><strong>Welcome to the Karoshi Club</strong> — Localization QA / Localization (RU→JA)</summary>
+
+  <h4>About the Project</h4>
+  <p>
+    Visual novel released on Steam.<br>
+    Provided <strong>localization quality assurance</strong> for in-game text and UI.
+  </p>
+
+  <h4>Project Page</h4>
+  <p>
+    Steam:<br>
+    <a href="https://store.steampowered.com/app/2624950/Welcome_to_the_Karoshi_Club/" target="_blank" rel="noopener noreferrer">
+      https://store.steampowered.com/app/2624950/Welcome_to_the_Karoshi_Club/
+    </a>
+  </p>
+
+</details>
 
 ---
 
