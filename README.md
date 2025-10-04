@@ -90,11 +90,11 @@ Passionate about creating engaging player experiences and improving development 
   <a href="images/photo_2023-06-26_15-11-11.jpg" target="_blank">
     <img src="images/photo_2023-06-26_15-11-11.jpg" alt="Vivo entre Los Muertos — Screenshot 1" width="360">
   </a>
-  <a href="images/photo_2024-03-14_19-17-08" target="_blank">
-    <img src="images/photo_2024-03-14_19-17-08" alt="Vivo entre Los Muertos — Screenshot 2" width="360">
+  <a href="images/photo_2024-03-14_19-17-08.jpg" target="_blank">
+    <img src="images/photo_2024-03-14_19-17-08.jpg" alt="Vivo entre Los Muertos — Screenshot 2" width="360">
   </a>
-  <a href="images/photo_2024-08-11_20-02-43" target="_blank">
-    <img src="images/photo_2024-08-11_20-02-43" alt="Vivo entre Los Muertos — Screenshot 3" width="360">
+  <a href="images/photo_2024-08-11_20-02-43.jpg" target="_blank">
+    <img src="images/photo_2024-08-11_20-02-43.jpg" alt="Vivo entre Los Muertos — Screenshot 3" width="360">
   </a>
 </p>
 
