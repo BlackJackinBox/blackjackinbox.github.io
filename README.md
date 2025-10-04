@@ -119,6 +119,58 @@ Passionate about creating engaging player experiences and improving development 
 
 </details>
 
+<details>
+  <summary><strong>Potions of Proportions</strong> — Game Designer / Level Designer / Project Manager, Unity</summary>
+
+  <h4>About the Project</h4>
+  <p>
+    A 2D puzzle-platformer about creative size manipulation and spatial thinking.<br>
+    Developed in Unity within 96 hours for the <strong>GMTK Game Jam 2024</strong> by a small team.<br>
+    The game explores the mechanics of resizing characters and objects to solve platforming and logic challenges.
+  </p>
+
+  <h4>Role and Responsibilities</h4>
+  <ul>
+    <li><strong>Game Design:</strong> designed the core resizing mechanic and its puzzle applications</li>
+    <li><strong>Level Design:</strong> built progressive puzzle levels emphasizing spatial awareness and timing</li>
+    <li><strong>Project Management:</strong> coordinated team workflow, tracked scope within jam constraints, and managed final build submission</li>
+  </ul>
+
+  <h4>Results</h4>
+  <ul>
+    <li>Completed and submitted a fully playable prototype within the 96-hour deadline</li>
+    <li>Received positive feedback for originality and level pacing during the jam</li>
+  </ul>
+
+<h4>Project Materials</h4>
+<p>Screenshots and gameplay videos from the prototype:</p>
+
+<p>
+  <a href="images/photo_(1300).png" target="_blank">
+    <img src="images/photo_(1300).png" alt="Potions of Proportions — Screenshot 1" width="360">
+  </a>
+  <a href="images/SmSHIP.jpg" target="_blank">
+    <img src="images/SmSHIP.jpg" alt="Potions of Proportions — Screenshot 2" width="360">
+  </a>
+  <a href="images/umLMMl.jpg" target="_blank">
+    <img src="images/umLMMl.jpg" alt="Potions of Proportions — Screenshot 3" width="360">
+  </a>
+  <a href="images/s__AfZ.jpg" target="_blank">
+    <img src="images/s__AfZ.jpg" alt="Potions of Proportions — Screenshot 4" width="360">
+  </a>
+</p>
+
+<p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5BbFcm-3LM" title="Potions of Proportions — Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+<p>
+  The playable version is available on the project page:<br>
+  <a href="https://blackjackinbox.itch.io/potions-of-proportions" target="_blank" rel="noopener noreferrer">https://blackjackinbox.itch.io/potions-of-proportions</a>
+</p>
+
+</details>
+
 ---
 
 ### Localization Projects
