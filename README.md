@@ -6,17 +6,35 @@ This repository hosts my personal resume and portfolio site, available at:
 -->
 
 ## About Me
-Experienced **Game Designer** with a strong background in **system, content, and 3C design**.  
-Hands-on experience with Unity and Unreal Engine projects, including porting, localization, and gameplay mechanics refinement.  
-Passionate about creating engaging player experiences and improving development workflows.  
+Experienced Game Designer with a strong background in **systems, content, and 3C design**.
+Hands-on experience with Unity and Unreal Engine projects, including porting, localization, and gameplay mechanics refinement.
+Passionate about creating engaging player experiences and improving development workflows.
+
+**Age**: 35
+Location: Moscow, willing to relocate
+
+**Languages**:
+– Russian (native)
+– English (C1)
+– Japanese (JLPT N3)
+
+**Game Preferences**:
+I draw inspiration from 2D platformers, CRPGs, and strategy games.
+Favorite titles include:
+– Hollow Knight (level & world structure, tight 2D combat loop)
+– The Witcher 3 (narrative design and meaningful player choices)
+– Herose of Might and Magic 3 / Frostpunk / Against the Storm (macro decision-making and systemic storytelling)
+
+**Hobbies**:
+Outside of Game Design, I play drums in a music band — teamwork, rhythm and iteration are also part of my creative process.
 
 ---
 
 ## Focus Areas
-- 🎮 System, content, and 3C design  
-- ⚙️ Gameplay mechanics balancing and refinement  
-- 🖥️ PC and web-based games (action, strategy, metroidvania)  
-- 🌍 International collaboration and localization projects  
+- System, content, and 3C design
+- Gameplay mechanics balancing and refinement
+- PC and web-based games (action, strategy, metroidvania)
+- International collaboration and localization projects
 
 ---
 
