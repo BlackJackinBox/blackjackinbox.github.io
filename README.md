@@ -25,12 +25,12 @@ Passionate about creating engaging player experiences and improving development 
 I draw inspiration from **2D platformers, CRPGs, and strategy games**.  
 Favorite titles include:
 
-- *Hollow Knight* — level & world structure, tight 2D combat loop
-- *The Witcher 3* — narrative design and meaningful player choices
-- *Heroes of Might and Magic III / Frostpunk / Against the Storm* — macro decision-making and systemic storytelling
+- *Hollow Knight* (level & world structure, tight 2D combat loop)
+- *The Witcher 3* (narrative design and meaningful player choices)
+- *Heroes of Might and Magic III / Frostpunk / Against the Storm* (macro decision-making and systemic storytelling)
 
 **Hobbies**:
-Outside of Game Design, I play drums in a music band — teamwork, rhythm and iteration are also part of my creative process.
+Outside of Game Design, I play drums in a music band: teamwork, rhythm and iteration are also part of my creative process.
 
 ---
 
@@ -52,7 +52,7 @@ Outside of Game Design, I play drums in a music band — teamwork, rhythm and it
 ### Game Design Projects
 
 <details>
-  <summary><strong>Dungeon Dominator</strong> — System Designer / Content Designer, UE5</summary>
+  <summary><strong>Dungeon Dominator</strong>: System Designer / Content Designer, UE5</summary>
 
   <h4>About the Project:</h4>
   <p>
@@ -83,7 +83,7 @@ Outside of Game Design, I play drums in a music band — teamwork, rhythm and it
 </details>
 
 <details>
-  <summary><strong>Vivo entre Los Muertos (VeLM)</strong> — System Designer / Level Designer / Project Manager, Unity</summary>
+  <summary><strong>Vivo entre Los Muertos (VeLM)</strong>: System Designer / Level Designer / Project Manager, Unity</summary>
 
   <h4>About the Project</h4>
   <p>
@@ -147,7 +147,7 @@ Outside of Game Design, I play drums in a music band — teamwork, rhythm and it
 </details>
 
 <details>
-  <summary><strong>Potions of Proportions</strong> — Game Designer / Level Designer / Project Manager, Unity</summary>
+  <summary><strong>Potions of Proportions</strong>: Game Designer / Level Designer / Project Manager, Unity</summary>
 
   <h4>About the Project</h4>
   <p>
@@ -199,7 +199,7 @@ Outside of Game Design, I play drums in a music band — teamwork, rhythm and it
 </details>
 
 <details>
-  <summary><strong>Bytes</strong> — Level Designer, Unity</summary>
+  <summary><strong>Bytes</strong>: Level Designer, Unity</summary>
 
   <h4>About the Project</h4>
   <p>
@@ -245,7 +245,7 @@ Outside of Game Design, I play drums in a music band — teamwork, rhythm and it
 ### Localization Projects
 
 <details>
-  <summary><strong>Numeral Strike</strong> — Localization (RU→EN, RU→JA) / Localization QA</summary>
+  <summary><strong>Numeral Strike</strong>: Localization (RU→EN, RU→JA) / Localization QA</summary>
 
   <h4>About the Project</h4>
   <p>
@@ -265,7 +265,7 @@ Outside of Game Design, I play drums in a music band — teamwork, rhythm and it
 </details>
 
 <details>
-  <summary><strong>Slay or Fall</strong> — Localization (RU→EN, RU→JA) / Localization QA</summary>
+  <summary><strong>Slay or Fall</strong>: Localization (RU→EN, RU→JA) / Localization QA</summary>
 
   <h4>About the Project</h4>
   <p>
@@ -285,7 +285,7 @@ Outside of Game Design, I play drums in a music band — teamwork, rhythm and it
 </details>
 
 <details>
-  <summary><strong>Graces: Posthumous Wish</strong> — Localization (RU→JA) / Localization QA</summary>
+  <summary><strong>Graces: Posthumous Wish</strong>: Localization (RU→JA) / Localization QA</summary>
 
   <h4>About the Project</h4>
   <p>
@@ -305,7 +305,7 @@ Outside of Game Design, I play drums in a music band — teamwork, rhythm and it
 </details>
 
 <details>
-  <summary><strong>Welcome to the Karoshi Club</strong> — Localization QA (RU→JA)</summary>
+  <summary><strong>Welcome to the Karoshi Club</strong>: Localization QA (RU→JA)</summary>
 
   <h4>About the Project</h4>
   <p>
@@ -328,4 +328,4 @@ Outside of Game Design, I play drums in a music band — teamwork, rhythm and it
 ## Links
 - [GitHub Profile](https://github.com/BlackJackinBox)  
 - [Itch.io](https://blackjackinbox.itch.io)
-- 📧 Email: blackjackinbox@gmail.com
+- [Email](blackjackinbox@gmail.com)
