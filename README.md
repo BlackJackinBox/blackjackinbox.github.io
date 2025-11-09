@@ -14,7 +14,7 @@ Passionate about creating engaging player experiences and improving development 
 
 **Location**: Moscow, willing to relocate
 
-**Languages**
+**Languages**:
 
 - Russian (native)
 - English (C1)
@@ -328,4 +328,4 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 ## Links
 - [GitHub Profile](https://github.com/BlackJackinBox)  
 - [Itch.io](https://blackjackinbox.itch.io)
-- [Email](blackjackinbox@gmail.com)
+- Email: blackjackinbox@gmail.com
