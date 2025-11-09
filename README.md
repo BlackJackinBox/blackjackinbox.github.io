@@ -1,12 +1,11 @@
 # Mikhail Fetisov<br>Game Designer (Systems / Content / 3C)
 
+---
+
 <!--
 This repository hosts my personal resume and portfolio site, available at:  
 👉 [https://blackjackinbox.github.io](https://blackjackinbox.github.io)
 -->
-
----
-
 ## About Me
 Experienced Game Designer with a strong background in **systems, content, and 3C design**.
 Hands-on experience with Unity and Unreal Engine projects, including porting, localization, and gameplay mechanics refinement.
