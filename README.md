@@ -1,5 +1,5 @@
 # Mikhail Fetisov  
-Game Designer (Systems / Content / 3C)
+# Game Designer (Systems / Content / 3C)
 
 <!--
 This repository hosts my personal resume and portfolio site, available at:  
