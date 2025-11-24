@@ -326,4 +326,5 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 ## Links
 - [GitHub Profile](https://github.com/BlackJackinBox)  
 - [Itch.io](https://blackjackinbox.itch.io)
+- [ArtStation](https://www.artstation.com/blackjackinbox)
 - Email: blackjackinbox@gmail.com
