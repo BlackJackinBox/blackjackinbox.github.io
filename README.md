@@ -50,13 +50,12 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 ### Game Design Projects
 
 <details>
-  <summary><strong>Dungeon Dominator</strong>: System Designer / Content Designer, UE5</summary>
+  <summary><strong>Commercial Game Project (under NDA)</strong>: System Designer / Content Designer, UE5</summary>
 
   <h4>About the Project:</h4>
   <p>
-    A fantasy <strong>Dungeon management</strong> game developed in Unreal Engine 5 for PC.<br>
-    Designed from a side-view, "ant-farm" perspective, focusing on base-building, exploration, and tactical encounters.<br>
-    Currently in active production, developed by a small core team.
+    A commercial fantasy <strong>game project for PC</strong> developed using Unreal Engine 5.<br>
+    Worked within a small cross-functional team during the production phase.
   </p>
 
   <h4>Role and Responsibilities:</h4>
@@ -74,8 +73,7 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 
   <h4>Project Materials</h4>
   <p>
-    Publicly available gameplay footage and visual materials — including results of my design work — can be found on the official Telegram channel:<br>
-    <a href="https://t.me/ShelterDungeongame" target="_blank">https://t.me/ShelterDungeongame</a>
+    Under NDA
   </p>
 
 </details>
