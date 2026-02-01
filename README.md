@@ -1,12 +1,12 @@
-# Mikhail Fetisov<br>Game Designer (Systems / Content / 3C)
+# Mikhail Fetisov<br>Game Designer (Genaralist)
 <!--
 This repository hosts my personal resume and portfolio site, available at:  
 👉 [https://blackjackinbox.github.io](https://blackjackinbox.github.io)
 -->
 ## About Me
-Experienced Game Designer with a strong background in **systems, content, and 3C design**.
-Hands-on experience with Unity and Unreal Engine projects, including porting, localization, and gameplay mechanics refinement.
-Passionate about creating engaging player experiences and improving development workflows.
+Experienced Game Designer with a strong background in **systems, content, and narrative-driven gameplay design**.
+Hands-on experience working with Unity and Unreal Engine projects, contributing to gameplay systems, mechanics iteration, porting, and localization workflows.
+Focused on creating engaging player experiences through systemic design and improving cross-disciplinary development workflows.
 
 **Age**: 35
 
@@ -33,10 +33,10 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 ---
 
 ## Focus Areas
-- System, content, and 3C design
-- Gameplay mechanics balancing and refinement
+- Systems, content, and narrative-driven gameplay design
+- Gameplay mechanics balancing, iteration, and tuning
 - PC and web-based games (action, strategy, metroidvania)
-- International collaboration and localization projects
+- International collaboration and localization-sensitive development
 
 ---
 
@@ -250,6 +250,22 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
     as well as <strong>localization quality assurance</strong> to ensure consistency, terminology accuracy, and clear gameplay communication across languages.
   </p>
 
+    <h4>Screenshots</h4>
+  <p>
+    <a href="images/NS_1.png" target="_blank">
+      <img src="images/NS_1.png" alt="Numeral Strike – Screenshot 1" width="360">
+    </a>
+    <a href="images/NS_3.png" target="_blank">
+      <img src="images/NS_3.png" alt="Numeral Strike – Screenshot 2" width="360">
+    </a><br>
+    <a href="images/NS_6.png" target="_blank">
+      <img src="images/NS_6.png" alt="Numeral Strike – Screenshot 3" width="360">
+    </a>
+    <a href="images/NS_5.png" target="_blank">
+      <img src="images/NS_5.png" alt="Numeral Strike – Screenshot 4" width="360">
+    </a>
+  </p>
+
   <h4>Project Page</h4>
   <p>
     Steam:<br>
@@ -268,6 +284,22 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
     2D roguelike available on Steam.<br>
     Provided <strong>Russian-to-English</strong> and <strong>Russian-to-Japanese localization</strong> for in-game text, UI, and gameplay terminology,<br>
     as well as <strong>localization quality assurance</strong> for consistency and readability across versions.
+  </p>
+
+      <h4>Screenshots</h4>
+  <p>
+    <a href="images/Slay_1.png" target="_blank">
+      <img src="images/Slay_1.png" alt="Numeral Strike – Screenshot 1" width="360">
+    </a>
+    <a href="images/Slay_7.png" target="_blank">
+      <img src="images/Slay_7.png" alt="Numeral Strike – Screenshot 2" width="360">
+    </a><br>
+    <a href="images/Slay_4.png" target="_blank">
+      <img src="images/Slay_4.png" alt="Numeral Strike – Screenshot 3" width="360">
+    </a>
+    <a href="images/Slay_12.png" target="_blank">
+      <img src="images/Slay_12.png" alt="Numeral Strike – Screenshot 4" width="360">
+    </a>
   </p>
 
   <h4>Project Page</h4>
