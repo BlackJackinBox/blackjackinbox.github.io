@@ -289,16 +289,16 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
       <h4>Screenshots</h4>
   <p>
     <a href="images/Slay_1.png" target="_blank">
-      <img src="images/Slay_1.png" alt="Numeral Strike – Screenshot 1" width="360">
+      <img src="images/Slay_1.png" alt="Slay or Fall – Screenshot 1" width="360">
     </a>
     <a href="images/Slay_7.png" target="_blank">
-      <img src="images/Slay_7.png" alt="Numeral Strike – Screenshot 2" width="360">
+      <img src="images/Slay_7.png" alt="Slay or Fall – Screenshot 2" width="360">
     </a><br>
     <a href="images/Slay_4.png" target="_blank">
-      <img src="images/Slay_4.png" alt="Numeral Strike – Screenshot 3" width="360">
+      <img src="images/Slay_4.png" alt="Slay or Fall – Screenshot 3" width="360">
     </a>
     <a href="images/Slay_12.png" target="_blank">
-      <img src="images/Slay_12.png" alt="Numeral Strike – Screenshot 4" width="360">
+      <img src="images/Slay_12.png" alt="Slay or Fall – Screenshot 4" width="360">
     </a>
   </p>
 
@@ -325,16 +325,16 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
       <h4>Screenshots</h4>
   <p>
     <a href="images/Graces_1.png" target="_blank">
-      <img src="images/Graces_1.png" alt="Numeral Strike – Screenshot 1" width="360">
+      <img src="images/Graces_1.png" alt="Graces – Screenshot 1" width="360">
     </a>
     <a href="images/Graces_5.png" target="_blank">
-      <img src="images/Graces_5.png" alt="Numeral Strike – Screenshot 2" width="360">
+      <img src="images/Graces_5.png" alt="Graces – Screenshot 2" width="360">
     </a><br>
     <a href="images/Graces_2.png" target="_blank">
-      <img src="images/Graces_2.png" alt="Numeral Strike – Screenshot 3" width="360">
+      <img src="images/Graces_2.png" alt="Graces – Screenshot 3" width="360">
     </a>
     <a href="images/Graces_4.png" target="_blank">
-      <img src="images/4.png" alt="Numeral Strike – Screenshot 4" width="360">
+      <img src="images/Graces_4.png" alt="Graces – Screenshot 4" width="360">
     </a>
   </p>
 
