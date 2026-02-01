@@ -1,4 +1,4 @@
-# Mikhail Fetisov<br>Game Designer (Genaralist)
+# Mikhail Fetisov<br>Game Designer (Generalist)
 <!--
 This repository hosts my personal resume and portfolio site, available at:  
 👉 [https://blackjackinbox.github.io](https://blackjackinbox.github.io)
@@ -320,6 +320,22 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
     Visual novel released on Steam.<br>
     Provided <strong>Russian-to-Japanese localization</strong> for all in-game text and UI,<br>
     as well as <strong>localization quality assurance</strong> to ensure tone accuracy and linguistic consistency.
+  </p>
+  
+      <h4>Screenshots</h4>
+  <p>
+    <a href="images/Graces_1.png" target="_blank">
+      <img src="images/Graces_1.png" alt="Numeral Strike – Screenshot 1" width="360">
+    </a>
+    <a href="images/Graces_5.png" target="_blank">
+      <img src="images/Graces_5.png" alt="Numeral Strike – Screenshot 2" width="360">
+    </a><br>
+    <a href="images/Graces_2.png" target="_blank">
+      <img src="images/Graces_2.png" alt="Numeral Strike – Screenshot 3" width="360">
+    </a>
+    <a href="images/Graces_4.png" target="_blank">
+      <img src="images/4.png" alt="Numeral Strike – Screenshot 4" width="360">
+    </a>
   </p>
 
   <h4>Project Page</h4>
