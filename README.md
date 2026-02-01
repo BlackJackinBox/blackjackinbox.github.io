@@ -41,7 +41,7 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 ---
 
 ## Resume
-📄 [Download my CV (PDF)](CV_Mikhail_Fetisov.pdf)
+📄 [Download my Resume (PDF)](Resume_Mikhail_Fetisov.pdf)
 
 ---
 
