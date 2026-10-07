@@ -8,7 +8,7 @@ Experienced Game Designer with a strong background in **systems, content, and na
 Hands-on experience working with Unity and Unreal Engine projects, contributing to gameplay systems, mechanics iteration, porting, and localization workflows.
 Focused on creating engaging player experiences through systemic design and improving cross-disciplinary development workflows.
 
-**Age**: 35
+**Age**: 36
 
 **Location**: Moscow, willing to relocate
 
@@ -50,7 +50,7 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 ### Game Design Projects
 
 <details>
-  <summary><strong>Commercial Game Project (under NDA)</strong>: System Designer / Content Designer, UE5</summary>
+  <summary><strong>Dungeon Dominator</strong>: System Designer / Content Designer, UE5</summary>
 
   <h4>About the Project:</h4>
   <p>
@@ -73,7 +73,8 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 
   <h4>Project Materials</h4>
   <p>
-    Under NDA
+    Official Steam page:<br>
+    <a href="https://store.steampowered.com/app/3664020/Dungeon_Dominator/" target="_blank" rel="noopener noreferrer">https://store.steampowered.com/app/3664020/Dungeon_Dominator/</a>
   </p>
 
 </details>
@@ -370,7 +371,7 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 ---
 
 ## Links
-- [GitHub Profile](https://github.com/BlackJackinBox)  
+- [GitHub](https://github.com/BlackJackinBox)  
 - [Itch.io](https://blackjackinbox.itch.io)
 - [ArtStation](https://www.artstation.com/blackjackinbox)
 - Email: blackjackinbox@gmail.com
