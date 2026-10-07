@@ -3,15 +3,31 @@ html {
     scrollbar-gutter: stable;
 }
 
-body.glightbox-open {
-    width: 100%;
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 24px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+
+    background: #0f1115;
+    color: #e8e8e8;
+}
+
+/* GLightbox добавляет этот класс для компенсации scrollbar.
+   У нас из-за центрированного body это вызывает сдвиг. */
+body.gscrollbar-fixer {
+    margin-right: auto !important;
+}
+
+/* GLightbox добавляет glightbox-open и на html, и на body */
+html.glightbox-open {
     overflow-y: scroll !important;
 }
 
-/* GLightbox: не даём странице прыгать при открытии */
 body.glightbox-open {
-    width: 100%;
-    overflow-y: scroll !important;
+    overflow-y: visible !important;
 }
 
 a {
@@ -32,7 +48,6 @@ h2 {
     font-size: 32px;
     margin-top: 64px;
     padding-bottom: 10px;
-
     border-bottom: 1px solid #2b2f36;
 }
 
@@ -58,7 +73,6 @@ summary {
 img {
     max-width: 100%;
     height: auto;
-
     border-radius: 8px;
 }
 
