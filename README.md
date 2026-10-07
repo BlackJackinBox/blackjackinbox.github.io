@@ -141,22 +141,42 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
          alt="Vivo entre Los Muertos — Screenshot 4"
          width="360">
   </a>
-</p>
 
-<p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/l5HTd_IAmmI" title="Vivo entre Los Muertos — Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
+  <a href="https://www.youtube.com/watch?v=l5HTd_IAmmI"
+     class="glightbox"
+     data-gallery="velm"
+     data-type="video">
+    <img src="https://img.youtube.com/vi/l5HTd_IAmmI/hqdefault.jpg"
+         alt="Vivo entre Los Muertos — Teaser"
+         width="360">
+  </a>
 
-<p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/jOMC-22at2g" title="Vivo entre Los Muertos — Art" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
+  <a href="https://www.youtube.com/watch?v=jOMC-22at2g"
+     class="glightbox"
+     data-gallery="velm"
+     data-type="video">
+    <img src="https://img.youtube.com/vi/jOMC-22at2g/hqdefault.jpg"
+         alt="Vivo entre Los Muertos — Art"
+         width="360">
+  </a>
 
-<p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/caZvm6MS2JQ" title="Vivo entre Los Muertos — Movement" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
+  <a href="https://www.youtube.com/watch?v=caZvm6MS2JQ"
+     class="glightbox"
+     data-gallery="velm"
+     data-type="video">
+    <img src="https://img.youtube.com/vi/caZvm6MS2JQ/hqdefault.jpg"
+         alt="Vivo entre Los Muertos — Movement"
+         width="360">
+  </a>
 
-<p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/L2x1uiXZY7k" title="Vivo entre Los Muertos — Puzzle Gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <a href="https://www.youtube.com/watch?v=L2x1uiXZY7k"
+     class="glightbox"
+     data-gallery="velm"
+     data-type="video">
+    <img src="https://img.youtube.com/vi/L2x1uiXZY7k/hqdefault.jpg"
+         alt="Vivo entre Los Muertos — Puzzle Gameplay"
+         width="360">
+  </a>
 </p>
 
 <p>
@@ -193,22 +213,46 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 <p>Screenshots and gameplay videos from the prototype:</p>
 
 <p>
-  <a href="images/photo_(1300).png" target="_blank">
-    <img src="images/photo_(1300).png" alt="Potions of Proportions — Screenshot 1" width="360">
+  <a href="images/photo_(1300).png"
+     class="glightbox"
+     data-gallery="potions">
+    <img src="images/photo_(1300).png"
+         alt="Potions of Proportions — Screenshot 1"
+         width="360">
   </a>
-  <a href="images/SmSHIP.jpg" target="_blank">
-    <img src="images/SmSHIP.jpg" alt="Potions of Proportions — Screenshot 2" width="360">
-  </a>
-  <a href="images/umLMMl.jpg" target="_blank">
-    <img src="images/umLMMl.jpg" alt="Potions of Proportions — Screenshot 3" width="360">
-  </a>
-  <a href="images/s__AfZ.jpg" target="_blank">
-    <img src="images/s__AfZ.jpg" alt="Potions of Proportions — Screenshot 4" width="360">
-  </a>
-</p>
 
-<p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5BbFcm-3LM" title="Potions of Proportions — Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <a href="images/SmSHIP.jpg"
+     class="glightbox"
+     data-gallery="potions">
+    <img src="images/SmSHIP.jpg"
+         alt="Potions of Proportions — Screenshot 2"
+         width="360">
+  </a>
+
+  <a href="images/umLMMl.jpg"
+     class="glightbox"
+     data-gallery="potions">
+    <img src="images/umLMMl.jpg"
+         alt="Potions of Proportions — Screenshot 3"
+         width="360">
+  </a>
+
+  <a href="images/s__AfZ.jpg"
+     class="glightbox"
+     data-gallery="potions">
+    <img src="images/s__AfZ.jpg"
+         alt="Potions of Proportions — Screenshot 4"
+         width="360">
+  </a>
+
+  <a href="https://www.youtube.com/watch?v=Q5BbFcm-3LM"
+     class="glightbox"
+     data-gallery="potions"
+     data-type="video">
+    <img src="https://img.youtube.com/vi/Q5BbFcm-3LM/hqdefault.jpg"
+         alt="Potions of Proportions — Walkthrough"
+         width="360">
+  </a>
 </p>
 
 <p>
@@ -242,16 +286,48 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 
   <h4>Project Materials</h4>
 
-  <p>
-    <a href="images/3.png" target="_blank"><img src="images/3.png" alt="Bytes Screenshot 1" width="360"></a>
-    <a href="images/5.png" target="_blank"><img src="images/5.png" alt="Bytes Screenshot 2" width="360"></a><br>
-    <a href="images/7.png" target="_blank"><img src="images/7.png" alt="Bytes Screenshot 3" width="360"></a>
-    <a href="images/8.png" target="_blank"><img src="images/8.png" alt="Bytes Screenshot 4" width="360"></a>
-  </p>
+<p>
+  <a href="images/3.png"
+     class="glightbox"
+     data-gallery="bytes">
+    <img src="images/3.png"
+         alt="Bytes Screenshot 1"
+         width="360">
+  </a>
 
-  <p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZYxe4WO4R_Y" title="Bytes — Gameplay Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </p>
+  <a href="images/5.png"
+     class="glightbox"
+     data-gallery="bytes">
+    <img src="images/5.png"
+         alt="Bytes Screenshot 2"
+         width="360">
+  </a><br>
+
+  <a href="images/7.png"
+     class="glightbox"
+     data-gallery="bytes">
+    <img src="images/7.png"
+         alt="Bytes Screenshot 3"
+         width="360">
+  </a>
+
+  <a href="images/8.png"
+     class="glightbox"
+     data-gallery="bytes">
+    <img src="images/8.png"
+         alt="Bytes Screenshot 4"
+         width="360">
+  </a>
+
+  <a href="https://www.youtube.com/watch?v=ZYxe4WO4R_Y"
+     class="glightbox"
+     data-gallery="bytes"
+     data-type="video">
+    <img src="https://img.youtube.com/vi/ZYxe4WO4R_Y/hqdefault.jpg"
+         alt="Bytes — Gameplay Demo"
+         width="360">
+  </a>
+</p>
 
   <p>
     Playable version available on itch.io:<br>
@@ -360,20 +436,39 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
   </p>
 
     <h4>Screenshots</h4>
-  <p>
-    <a href="images/NS_1.png" target="_blank">
-      <img src="images/NS_1.png" alt="Numeral Strike – Screenshot 1" width="360">
-    </a>
-    <a href="images/NS_3.png" target="_blank">
-      <img src="images/NS_3.png" alt="Numeral Strike – Screenshot 2" width="360">
-    </a><br>
-    <a href="images/NS_6.png" target="_blank">
-      <img src="images/NS_6.png" alt="Numeral Strike – Screenshot 3" width="360">
-    </a>
-    <a href="images/NS_5.png" target="_blank">
-      <img src="images/NS_5.png" alt="Numeral Strike – Screenshot 4" width="360">
-    </a>
-  </p>
+<p>
+  <a href="images/NS_1.png"
+     class="glightbox"
+     data-gallery="numeral-strike">
+    <img src="images/NS_1.png"
+         alt="Numeral Strike – Screenshot 1"
+         width="360">
+  </a>
+
+  <a href="images/NS_3.png"
+     class="glightbox"
+     data-gallery="numeral-strike">
+    <img src="images/NS_3.png"
+         alt="Numeral Strike – Screenshot 2"
+         width="360">
+  </a><br>
+
+  <a href="images/NS_6.png"
+     class="glightbox"
+     data-gallery="numeral-strike">
+    <img src="images/NS_6.png"
+         alt="Numeral Strike – Screenshot 3"
+         width="360">
+  </a>
+
+  <a href="images/NS_5.png"
+     class="glightbox"
+     data-gallery="numeral-strike">
+    <img src="images/NS_5.png"
+         alt="Numeral Strike – Screenshot 4"
+         width="360">
+  </a>
+</p>
 
   <h4>Project Page</h4>
   <p>
@@ -396,20 +491,39 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
   </p>
 
       <h4>Screenshots</h4>
-  <p>
-    <a href="images/Slay_1.png" target="_blank">
-      <img src="images/Slay_1.png" alt="Slay or Fall – Screenshot 1" width="360">
-    </a>
-    <a href="images/Slay_7.png" target="_blank">
-      <img src="images/Slay_7.png" alt="Slay or Fall – Screenshot 2" width="360">
-    </a><br>
-    <a href="images/Slay_4.png" target="_blank">
-      <img src="images/Slay_4.png" alt="Slay or Fall – Screenshot 3" width="360">
-    </a>
-    <a href="images/Slay_12.png" target="_blank">
-      <img src="images/Slay_12.png" alt="Slay or Fall – Screenshot 4" width="360">
-    </a>
-  </p>
+<p>
+  <a href="images/Slay_1.png"
+     class="glightbox"
+     data-gallery="slay-or-fall">
+    <img src="images/Slay_1.png"
+         alt="Slay or Fall – Screenshot 1"
+         width="360">
+  </a>
+
+  <a href="images/Slay_7.png"
+     class="glightbox"
+     data-gallery="slay-or-fall">
+    <img src="images/Slay_7.png"
+         alt="Slay or Fall – Screenshot 2"
+         width="360">
+  </a><br>
+
+  <a href="images/Slay_4.png"
+     class="glightbox"
+     data-gallery="slay-or-fall">
+    <img src="images/Slay_4.png"
+         alt="Slay or Fall – Screenshot 3"
+         width="360">
+  </a>
+
+  <a href="images/Slay_12.png"
+     class="glightbox"
+     data-gallery="slay-or-fall">
+    <img src="images/Slay_12.png"
+         alt="Slay or Fall – Screenshot 4"
+         width="360">
+  </a>
+</p>
 
   <h4>Project Page</h4>
   <p>
@@ -432,20 +546,39 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
   </p>
   
       <h4>Screenshots</h4>
-  <p>
-    <a href="images/Graces_1.png" target="_blank">
-      <img src="images/Graces_1.png" alt="Graces – Screenshot 1" width="360">
-    </a>
-    <a href="images/Graces_5.png" target="_blank">
-      <img src="images/Graces_5.png" alt="Graces – Screenshot 2" width="360">
-    </a><br>
-    <a href="images/Graces_2.png" target="_blank">
-      <img src="images/Graces_2.png" alt="Graces – Screenshot 3" width="360">
-    </a>
-    <a href="images/Graces_4.png" target="_blank">
-      <img src="images/Graces_4.png" alt="Graces – Screenshot 4" width="360">
-    </a>
-  </p>
+<p>
+  <a href="images/Graces_1.png"
+     class="glightbox"
+     data-gallery="graces">
+    <img src="images/Graces_1.png"
+         alt="Graces – Screenshot 1"
+         width="360">
+  </a>
+
+  <a href="images/Graces_5.png"
+     class="glightbox"
+     data-gallery="graces">
+    <img src="images/Graces_5.png"
+         alt="Graces – Screenshot 2"
+         width="360">
+  </a><br>
+
+  <a href="images/Graces_2.png"
+     class="glightbox"
+     data-gallery="graces">
+    <img src="images/Graces_2.png"
+         alt="Graces – Screenshot 3"
+         width="360">
+  </a>
+
+  <a href="images/Graces_4.png"
+     class="glightbox"
+     data-gallery="graces">
+    <img src="images/Graces_4.png"
+         alt="Graces – Screenshot 4"
+         width="360">
+  </a>
+</p>
 
   <h4>Project Page</h4>
   <p>
