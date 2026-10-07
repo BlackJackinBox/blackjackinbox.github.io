@@ -38,6 +38,8 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 - PC and web-based games (action, strategy, metroidvania)
 - International collaboration and localization-sensitive development
 
+**Tools:** Unity, Unreal Engine 5, Git, Jira, Confluence, Figma, Trello, Google Sheets / Excel, Blender, AI-assisted tools (ChatGPT, Claude, Midjourney)
+
 ---
 
 ## Resume
@@ -54,21 +56,23 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 
   <h4>About the Project:</h4>
   <p>
-    A commercial fantasy <strong>game project for PC</strong> developed using Unreal Engine 5.<br>
-    Worked within a small cross-functional team during the production phase.
+    A dark-fantasy <strong>dungeon management strategy game for PC</strong> developed in Unreal Engine 5.<br>
+    The game combines dungeon building, resource management, creature management, real-time combat, and direct player interaction with the environment.<br>
+    Worked within a small cross-functional team during pre-production and production.
   </p>
 
   <h4>Role and Responsibilities:</h4>
   <ul>
-    <li>System design: core player interaction, meta-progression, economy, and event logic</li>
-    <li>Structured and maintained game design documentation</li>
-    <li>Created balance sheets and coordinated integration between content and UI</li>
+    <li>Designed core player–world interaction mechanics, meta-progression, economy, and event logic</li>
+    <li>Structured and maintained game design documentation for gameplay systems and content, ensuring clear requirements were communicated to programmers, UI designers, and the content team</li>
+    <li>Created and maintained balance sheets for the economy and progression systems, tuning key parameters and dependencies</li>
+    <li>Coordinated content and UI integration: defined requirements and verified correct data presentation and interaction between gameplay systems and the interface</li>
   </ul>
 
   <h4>Results:</h4>
   <ul>
-    <li>Created clear, consistent documentation for complex gameplay systems and content features</li>
-    <li>Improved overall design clarity and team communication</li>
+    <li>Established a unified structure for documentation and balance sheets across several interconnected gameplay systems</li>
+    <li>Streamlined communication of requirements between design, programming, and UI by formalizing system dependencies and parameters</li>
   </ul>
 
   <h4>Project Materials</h4>
@@ -237,17 +241,102 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 
 </details>
 
+<br>
+
+<details>
+  <summary><strong>Commercial 18+ Projects</strong></summary>
+
+  <p>
+    <em>
+      The following projects contain adult content (18+).
+      Portfolio materials are presented in a safe-for-work format and focus on game design, gameplay systems, narrative, and production responsibilities.
+    </em>
+  </p>
+
+<details>
+  <summary><strong>SQUIRT GAME 💦</strong>: System Designer / Narrative Designer / Content Designer, Unity</summary>
+
+  <h4>About the Project</h4>
+  <p>
+    An <strong>18+ visual novel with puzzle adventure, point-and-click, and dating sim elements</strong>, set within an online reality show.<br>
+    The gameplay combines location exploration, character interactions, mini-games, and puzzles, while player choices affect relationships, narrative branches, and available scenes.<br>
+    Worked on the project in Unity as part of a small team, contributing to gameplay systems, narrative design, and content production.
+  </p>
+
+  <h4>Role and Responsibilities</h4>
+  <ul>
+    <li>Designed the overall progression structure, including the sequence of narrative events, quests, and their unlock conditions</li>
+    <li>Developed narrative content, dialogue, character interactions, and branching scenarios based on player choices</li>
+    <li>Designed and configured mini-games, interactive sequences, and related progression systems</li>
+    <li>Worked directly in Unity and Naninovel, setting up gameplay scenes, event sequences, UI, camera behavior, video integration, and content implementation</li>
+    <li>Created and maintained design documentation, content requirements, and technical specifications for programmers and artists</li>
+  </ul>
+
+  <h4>Results</h4>
+  <ul>
+    <li>Built a cohesive progression structure combining narrative events, exploration, mini-games, and character relationship systems</li>
+    <li>Implemented and configured a significant portion of the project’s interactive and narrative content directly in the game engine</li>
+    <li>Established a reusable workflow for integrating narrative scenes, interactive sequences, and additional content</li>
+  </ul>
+
+  <h4>Project Materials</h4>
+  <p>
+    Steam page:<br>
+    <a href="https://store.steampowered.com/app/5038160/SQUIRT_GAME/" target="_blank" rel="noopener noreferrer">https://store.steampowered.com/app/5038160/SQUIRT_GAME/</a>
+  </p>
+
+</details>
+
+<details>
+  <summary><strong>Sexvirus.exe</strong>: System Designer / Narrative Designer / Content Designer, Unity</summary>
+
+  <h4>About the Project</h4>
+  <p>
+    An <strong>18+ inspection game with border-control simulation elements</strong>, set inside a computer system.<br>
+    The player inspects incoming programs, compares their data against a database, identifies viruses, and decides whether to allow them through, destroy the infected carrier, or send a special virus to quarantine.<br>
+    Across seven in-game days, the inspection system gradually becomes more complex, progressing from visual identification to document checks, carrier verification, and digital signature scanning.
+  </p>
+
+  <h4>Role and Responsibilities</h4>
+  <ul>
+    <li>Designed the core gameplay loop around program inspection, decision-making, and outcome handling</li>
+    <li>Designed the progression of gameplay mechanics across seven in-game days, gradually introducing new inspection layers and increasing decision complexity</li>
+    <li>Defined rules for normal programs, impostors, and named viruses, including different detection, destruction, and quarantine conditions</li>
+    <li>Designed the logic and UX requirements for inspection tools, including database checks, documents, carrier parameters, license verification, and digital signature scanning</li>
+    <li>Developed character arcs, dialogue, tutorials, and contextual reactions to player actions</li>
+    <li>Created and maintained design documentation and technical requirements for programmers, artists, and animators</li>
+    <li>Contributed directly to gameplay system and content setup in Unity</li>
+  </ul>
+
+  <h4>Results</h4>
+  <ul>
+    <li>Built a scalable gameplay loop in which the core inspection procedure is progressively expanded with additional mechanics</li>
+    <li>Designed multiple categories of incoming programs with distinct behavior rules and decision conditions</li>
+    <li>Connected systemic gameplay with character arcs and content progression while preserving a clear “inspection → decision → consequence” loop</li>
+    <li>Established a tutorial and reaction structure that introduces new mechanics gradually without relying on a separate tutorial mode</li>
+  </ul>
+
+  <h4>Project Materials</h4>
+  <p>
+    The project is currently in development.<br>
+    A public project page is not yet available.
+  </p>
+
+</details>
+
+</details>
+
 ---
 
 ### Localization Projects
 
 <details>
-  <summary><strong>Numeral Strike</strong>: Localization (RU→EN, RU→JA) / Localization QA</summary>
+  <summary><strong>Numeral Strike</strong>: Localization (RU→EN, RU→JA, RU→DE) / Localization QA (RU→EN, RU→JA, RU→DE)</summary>
 
   <h4>About the Project</h4>
   <p>
     Turn-based tactical roguelike available on Steam (demo version).<br>
-    Provided <strong>Russian-to-English</strong> and <strong>Russian-to-Japanese localization</strong> for the demo build,<br>
+    Provided <strong>Russian-to-English</strong>, <strong>Russian-to-German</strong>, and <strong>Russian-to-Japanese localization</strong> for the release build,<br>
     as well as <strong>localization quality assurance</strong> to ensure consistency, terminology accuracy, and clear gameplay communication across languages.
   </p>
 
@@ -278,7 +367,7 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 </details>
 
 <details>
-  <summary><strong>Slay or Fall</strong>: Localization (RU→EN, RU→JA) / Localization QA</summary>
+  <summary><strong>Slay or Fall</strong>: Localization (RU→EN, RU→JA) / Localization QA (RU→EN, RU→JA)</summary>
 
   <h4>About the Project</h4>
   <p>
@@ -314,7 +403,7 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 </details>
 
 <details>
-  <summary><strong>Graces: Posthumous Wish</strong>: Localization (RU→JA) / Localization QA</summary>
+  <summary><strong>Graces: Posthumous Wish</strong>: Localization (RU→JA) / Localization QA (RU→JA)</summary>
 
   <h4>About the Project</h4>
   <p>
