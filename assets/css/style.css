@@ -14,6 +14,12 @@ body {
     color: #e8e8e8;
 }
 
+/* GLightbox: не даём странице прыгать при открытии */
+body.glightbox-open {
+    width: 100%;
+    overflow-y: scroll !important;
+}
+
 a {
     color: #7cb7ff;
     text-decoration: none;
