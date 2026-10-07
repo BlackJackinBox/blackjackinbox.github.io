@@ -43,7 +43,7 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 ---
 
 ## Resume
-📄 [Download my Resume (PDF)](Resume_Mikhail_Fetisov.pdf)
+📄 [Download my Resume (PDF)](/Resume_Mikhail_Fetisov.pdf)
 
 ---
 
@@ -319,7 +319,7 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
   <h4>Project Materials</h4>
   <p>
     The project is currently in development.<br>
-    A public project page is not yet available.
+    A public project page is not yet available (TBA).
   </p>
 
 </details>

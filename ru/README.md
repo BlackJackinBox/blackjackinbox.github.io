@@ -43,7 +43,7 @@ This repository hosts my personal resume and portfolio site, available at:
 ---
 
 ## Резюме
-📄 [Скачать резюме (PDF)](Resume_Mikhail_Fetisov.pdf)
+📄 [Скачать резюме (PDF)](/Resume_Mikhail_Fetisov.pdf)
 
 ---
 
