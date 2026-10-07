@@ -110,17 +110,36 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
 <p>Screenshots and gameplay videos from the prototype:</p>
 
 <p>
-  <a href="images/photo_2023-06-26_15-11-11.jpg" target="_blank">
-    <img src="images/photo_2023-06-26_15-11-11.jpg" alt="Vivo entre Los Muertos — Screenshot 1" width="360">
+  <a href="images/photo_2023-06-26_15-11-11.jpg"
+     class="glightbox"
+     data-gallery="velm">
+    <img src="images/photo_2023-06-26_15-11-11.jpg"
+         alt="Vivo entre Los Muertos — Screenshot 1"
+         width="360">
   </a>
-  <a href="images/photo_2024-03-14_19-17-08.jpg" target="_blank">
-    <img src="images/photo_2024-03-14_19-17-08.jpg" alt="Vivo entre Los Muertos — Screenshot 2" width="360">
+
+  <a href="images/photo_2024-03-14_19-17-08.jpg"
+     class="glightbox"
+     data-gallery="velm">
+    <img src="images/photo_2024-03-14_19-17-08.jpg"
+         alt="Vivo entre Los Muertos — Screenshot 2"
+         width="360">
   </a>
-  <a href="images/photo_2024-08-11_20-02-43.jpg" target="_blank">
-    <img src="images/photo_2024-08-11_20-02-43.jpg" alt="Vivo entre Los Muertos — Screenshot 3" width="360">
+
+  <a href="images/photo_2024-08-11_20-02-43.jpg"
+     class="glightbox"
+     data-gallery="velm">
+    <img src="images/photo_2024-08-11_20-02-43.jpg"
+         alt="Vivo entre Los Muertos — Screenshot 3"
+         width="360">
   </a>
-  <a href="images/photo_2023-07-01_21-42-16.jpg" target="_blank">
-    <img src="images/photo_2023-07-01_21-42-16.jpg" alt="Vivo entre Los Muertos — Screenshot 4" width="360">
+
+  <a href="images/photo_2023-07-01_21-42-16.jpg"
+     class="glightbox"
+     data-gallery="velm">
+    <img src="images/photo_2023-07-01_21-42-16.jpg"
+         alt="Vivo entre Los Muertos — Screenshot 4"
+         width="360">
   </a>
 </p>
 
