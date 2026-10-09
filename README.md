@@ -5,7 +5,11 @@ This repository hosts my personal resume and portfolio site, available at:
 <div class="hero">
 
   <div class="hero-left">
-    <h1>Mikhail Fetisov<br>Game Designer (Generalist)</h1>
+    <div class="hero-name">Mikhail Fetisov</div>
+
+    <div class="hero-role">
+      Game Designer<br><span>(Generalist)</span>
+    </div>
 
     <div class="hero-tags">
       Systems Design • Content Design • Narrative Design • Level Design
@@ -18,7 +22,7 @@ This repository hosts my personal resume and portfolio site, available at:
     </p>
   </div>
 
-  <div class="hero-right">
+  <div class="hero-right hero-summary">
     <p>
       Experienced Game Designer with a strong background in
       <strong>systems, content, and narrative-driven gameplay design</strong>.
@@ -39,6 +43,7 @@ This repository hosts my personal resume and portfolio site, available at:
 </div>
 
 ---
+
 ## Case Studies
 
 ### Game Design Projects
@@ -414,6 +419,7 @@ This repository hosts my personal resume and portfolio site, available at:
 </details>
 
 ---
+
 ### Localization Projects
 
 <details>
@@ -601,6 +607,7 @@ This repository hosts my personal resume and portfolio site, available at:
 </details>
 
 ---
+
 ## About Me
 
 **Age:** 36
