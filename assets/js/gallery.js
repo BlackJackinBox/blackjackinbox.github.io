@@ -2,51 +2,49 @@ const lightbox = GLightbox({
     selector: '.glightbox'
 });
 
-let activeGallery = null;
+let currentGalleryName = null;
 
 
-/* ВАЖНО:
-   true в конце включает capture phase.
-   Благодаря этому мы узнаём галерею ДО того,
-   как GLightbox обработает клик.
-*/
-document.addEventListener('click', function (event) {
-    const link = event.target.closest('.glightbox');
+/* =========================
+   CREATE THUMBNAILS
+   ========================= */
 
-    if (!link) return;
+function createGalleryThumbnails(trigger, activeIndex = 0) {
+    if (!trigger) return;
 
-    activeGallery = link.dataset.gallery || null;
-}, true);
+    const galleryName = trigger.dataset.gallery;
 
+    if (!galleryName) return;
 
-function removeGalleryThumbnails() {
-    const existing = document.querySelector('.gallery-thumbnails');
-
-    if (existing) {
-        existing.remove();
+    /*
+     * Если панель уже создана именно для этой галереи,
+     * повторно её не создаём.
+     */
+    if (
+        currentGalleryName === galleryName &&
+        document.querySelector('.gallery-thumbnails')
+    ) {
+        updateActiveThumbnail(activeIndex);
+        return;
     }
-}
 
-
-function createGalleryThumbnails() {
     removeGalleryThumbnails();
 
-    if (!activeGallery) return;
+    currentGalleryName = galleryName;
 
     const items = Array.from(
         document.querySelectorAll(
-            `.glightbox[data-gallery="${activeGallery}"]`
+            `.glightbox[data-gallery="${galleryName}"]`
         )
     );
 
     if (items.length <= 1) return;
 
-    const lightboxBody = document.querySelector('#glightbox-body');
-
-    if (!lightboxBody) return;
 
     const strip = document.createElement('div');
+
     strip.className = 'gallery-thumbnails';
+    strip.dataset.gallery = galleryName;
 
 
     items.forEach((item, index) => {
@@ -54,10 +52,9 @@ function createGalleryThumbnails() {
 
         button.type = 'button';
         button.className = 'gallery-thumbnail';
-        button.dataset.index = index;
 
 
-        /* Берём thumbnail прямо из картинки на странице */
+        /* Thumbnail */
         const sourceImage = item.querySelector('img');
 
         if (sourceImage) {
@@ -70,11 +67,12 @@ function createGalleryThumbnails() {
         }
 
 
-        /* Значок play для YouTube */
+        /* YouTube / video icon */
         if (item.dataset.type === 'video') {
             button.classList.add('gallery-thumbnail-video');
 
             const play = document.createElement('span');
+
             play.className = 'gallery-thumbnail-play';
             play.textContent = '▶';
 
@@ -87,7 +85,6 @@ function createGalleryThumbnails() {
             event.stopPropagation();
 
             lightbox.goToSlide(index);
-            updateActiveThumbnail(index);
         });
 
 
@@ -95,13 +92,21 @@ function createGalleryThumbnails() {
     });
 
 
-    lightboxBody.appendChild(strip);
+    /*
+     * ВАЖНО:
+     * добавляем thumbnails прямо в body.
+     * Они position: fixed, поэтому им не нужно
+     * находиться внутри внутренней структуры GLightbox.
+     */
+    document.body.appendChild(strip);
 
-    updateActiveThumbnail(
-        lightbox.getActiveSlideIndex()
-    );
+    updateActiveThumbnail(activeIndex);
 }
 
+
+/* =========================
+   ACTIVE THUMBNAIL
+   ========================= */
 
 function updateActiveThumbnail(index) {
     const thumbnails = document.querySelectorAll(
@@ -114,6 +119,7 @@ function updateActiveThumbnail(index) {
             i === index
         );
     });
+
 
     const active = document.querySelector(
         '.gallery-thumbnail.active'
@@ -129,19 +135,55 @@ function updateActiveThumbnail(index) {
 }
 
 
-lightbox.on('open', function () {
-    /*
-       DOM самого GLightbox уже создаётся,
-       но даём ему один кадр закончить построение.
-    */
-    requestAnimationFrame(function () {
-        createGalleryThumbnails();
-    });
+/* =========================
+   REMOVE THUMBNAILS
+   ========================= */
+
+function removeGalleryThumbnails() {
+    const strip = document.querySelector(
+        '.gallery-thumbnails'
+    );
+
+    if (strip) {
+        strip.remove();
+    }
+}
+
+
+/* =========================
+   GLIGHTBOX EVENTS
+   ========================= */
+
+/*
+ * Это событие вызывается, когда конкретный слайд
+ * уже реально загружен.
+ *
+ * GLightbox сам сообщает нам trigger —
+ * исходную ссылку <a class="glightbox">.
+ */
+lightbox.on('slide_after_load', function (data) {
+    if (!data || !data.trigger) return;
+
+    createGalleryThumbnails(
+        data.trigger,
+        data.slideIndex
+    );
 });
 
 
+/*
+ * При переключении картинки обновляем
+ * выделенную миниатюру.
+ */
 lightbox.on('slide_changed', function ({ current }) {
     if (!current) return;
+
+    if (current.trigger) {
+        createGalleryThumbnails(
+            current.trigger,
+            current.slideIndex
+        );
+    }
 
     updateActiveThumbnail(
         current.slideIndex
@@ -149,7 +191,11 @@ lightbox.on('slide_changed', function ({ current }) {
 });
 
 
+/*
+ * После закрытия удаляем панель.
+ */
 lightbox.on('close', function () {
     removeGalleryThumbnails();
-    activeGallery = null;
+
+    currentGalleryName = null;
 });
