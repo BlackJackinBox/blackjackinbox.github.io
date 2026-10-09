@@ -311,34 +311,92 @@ hr {
    ========================= */
 
 @media (max-width: 800px) {
+
+    body {
+        padding: 24px 20px;
+        overflow-x: hidden;
+    }
+
+    /* HERO становится одной колонкой */
     .hero {
         grid-template-columns: 1fr;
-        gap: 24px;
+        gap: 28px;
+
+        margin: 12px 0 20px;
+    }
+
+    .hero-left {
+        padding-right: 0;
     }
 
     .hero-right {
         padding-left: 0;
-        padding-top: 24px;
+        padding-top: 28px;
 
         border-left: none;
         border-top: 1px solid #2b2f36;
     }
 
+    /* Имя */
+    .hero-name {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    /* Game Designer */
     .hero-role {
-        font-size: 40px;
-    }
-}
-
-@media (max-width: 700px) {
-    body {
-        padding: 24px 16px;
+        font-size: 38px;
+        line-height: 1.02;
+        margin-bottom: 18px;
     }
 
+    /* Направления */
+    .hero-tags {
+        font-size: 14px;
+        line-height: 1.7;
+
+        white-space: normal;
+        overflow-wrap: anywhere;
+
+        margin-bottom: 20px;
+    }
+
+    /* Три абзаца справа */
+    .hero-summary p {
+        font-size: 15px;
+        line-height: 1.65;
+
+        margin-bottom: 16px;
+    }
+
+    /* Resume */
+    .resume-button {
+        padding: 10px 14px;
+        font-size: 15px;
+    }
+
+    /* Заголовки разделов */
     h1 {
         font-size: 36px;
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 27px;
+        margin-top: 14px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    /* Карточки проектов */
+    details {
+        padding: 14px 16px;
+        margin: 12px 0;
+    }
+
+    summary {
+        font-size: 16px;
+        line-height: 1.5;
     }
 }
