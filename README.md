@@ -1,4 +1,3 @@
-# Mikhail Fetisov<br>Game Designer (Generalist)
 <!--
 This repository hosts my personal resume and portfolio site, available at:  
 👉 [https://blackjackinbox.github.io](https://blackjackinbox.github.io)
@@ -40,7 +39,6 @@ This repository hosts my personal resume and portfolio site, available at:
 </div>
 
 ---
-
 ## Case Studies
 
 ### Game Design Projects
@@ -416,7 +414,6 @@ This repository hosts my personal resume and portfolio site, available at:
 </details>
 
 ---
-
 ### Localization Projects
 
 <details>
@@ -604,7 +601,6 @@ This repository hosts my personal resume and portfolio site, available at:
 </details>
 
 ---
-
 ## About Me
 
 **Age:** 36
