@@ -102,8 +102,8 @@ hr {
 
 .hero {
     display: grid;
-    grid-template-columns: 0.95fr 1.05fr;
-    gap: 48px;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 36px;
     align-items: start;
 
     margin: 18px 0 24px;
@@ -114,7 +114,7 @@ hr {
 }
 
 .hero-right {
-    padding-left: 40px;
+    padding-left: 28px;
 
     border-left: 1px solid #2b2f36;
 }
@@ -153,10 +153,10 @@ hr {
 }
 
 .hero-summary p {
-    margin: 0 0 18px;
+    margin: 0 0 16px;
 
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 16px;
+    line-height: 1.7;
 
     color: #c8d2df;
     font-style: italic;
