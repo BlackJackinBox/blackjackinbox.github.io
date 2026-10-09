@@ -416,6 +416,11 @@ hr {
         margin: 12px 0;
     }
 
+    details a {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
     summary {
         font-size: 16px;
         line-height: 1.5;
