@@ -317,9 +317,19 @@ hr {
         overflow-x: hidden;
     }
 
-    /* HERO становится одной колонкой */
+    /* Важно для Grid:
+       разрешаем hero и его колонкам реально сжиматься */
+    .hero,
+    .hero-left,
+    .hero-right {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
     .hero {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
         gap: 28px;
 
         margin: 12px 0 20px;
@@ -337,45 +347,57 @@ hr {
         border-top: 1px solid #2b2f36;
     }
 
-    /* Имя */
     .hero-name {
         font-size: 24px;
         margin-bottom: 12px;
     }
 
-    /* Game Designer */
     .hero-role {
+        max-width: 100%;
+
         font-size: 38px;
         line-height: 1.02;
+
         margin-bottom: 18px;
     }
 
-    /* Направления */
+    /* Ключевой фикс */
     .hero-tags {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+
+        margin-bottom: 20px;
+
         font-size: 14px;
         line-height: 1.7;
 
-        white-space: normal;
-        overflow-wrap: anywhere;
-
-        margin-bottom: 20px;
+        white-space: normal !important;
+        overflow-wrap: break-word;
     }
 
-    /* Три абзаца справа */
+    .hero-summary {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
     .hero-summary p {
+        max-width: 100%;
+
+        margin-bottom: 16px;
+
         font-size: 15px;
         line-height: 1.65;
 
-        margin-bottom: 16px;
+        overflow-wrap: break-word;
     }
 
-    /* Resume */
     .resume-button {
         padding: 10px 14px;
         font-size: 15px;
     }
 
-    /* Заголовки разделов */
     h1 {
         font-size: 36px;
     }
@@ -389,7 +411,6 @@ hr {
         font-size: 21px;
     }
 
-    /* Карточки проектов */
     details {
         padding: 14px 16px;
         margin: 12px 0;
