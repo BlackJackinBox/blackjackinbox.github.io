@@ -102,8 +102,8 @@ hr {
 
 .hero {
     display: grid;
-    grid-template-columns: 0.85fr 1.15fr;
-    gap: 36px;
+    grid-template-columns: 0.92fr 1.08fr;
+    gap: 32px;
     align-items: start;
 
     margin: 18px 0 24px;
