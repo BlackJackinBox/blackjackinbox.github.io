@@ -3,47 +3,41 @@
 This repository hosts my personal resume and portfolio site, available at:  
 👉 [https://blackjackinbox.github.io](https://blackjackinbox.github.io)
 -->
-## About Me
-Experienced Game Designer with a strong background in **systems, content, and narrative-driven gameplay design**.
-Hands-on experience working with Unity and Unreal Engine projects, contributing to gameplay systems, mechanics iteration, porting, and localization workflows.
-Focused on creating engaging player experiences through systemic design and improving cross-disciplinary development workflows.
+<div class="hero">
 
-**Age**: 36
+  <div class="hero-left">
+    <h1>Mikhail Fetisov<br>Game Designer (Generalist)</h1>
 
-**Location**: Moscow, willing to relocate
+    <div class="hero-tags">
+      Systems Design • Content Design • Narrative Design • Level Design
+    </div>
 
-**Languages**:
+    <p>
+      <a class="resume-button" href="/Resume_Mikhail_Fetisov.pdf">
+        📄 Download Resume
+      </a>
+    </p>
+  </div>
 
-- Russian (native)
-- English (C1)
-- Japanese (JLPT N3)
+  <div class="hero-right">
+    <p>
+      Experienced Game Designer with a strong background in
+      <strong>systems, content, and narrative-driven gameplay design</strong>.
+    </p>
 
-**Game Preferences**
+    <p>
+      Hands-on experience working with Unity and Unreal Engine projects,
+      contributing to gameplay systems, mechanics iteration, porting,
+      and localization workflows.
+    </p>
 
-I draw inspiration from **2D platformers, CRPGs, and strategy games**.  
-Favorite titles include:
+    <p>
+      Focused on creating engaging player experiences through systemic design
+      and improving cross-disciplinary development workflows.
+    </p>
+  </div>
 
-- *Hollow Knight* (level & world structure, tight 2D combat loop)
-- *The Witcher 3* (narrative design and meaningful player choices)
-- *Heroes of Might and Magic III / Frostpunk / Against the Storm* (macro decision-making and systemic storytelling)
-
-**Hobbies**:
-Outside of Game Design, I play drums in a music band: teamwork, rhythm and iteration are also part of my creative process.
-
----
-
-## Focus Areas
-- Systems, content, and narrative-driven gameplay design
-- Gameplay mechanics balancing, iteration, and tuning
-- PC and web-based games (action, strategy, metroidvania)
-- International collaboration and localization-sensitive development
-
-**Tools:** Unity, Unreal Engine 5, Git, Jira, Confluence, Figma, Trello, Google Sheets / Excel, Blender, AI-assisted tools (ChatGPT, Claude, Midjourney)
-
----
-
-## Resume
-📄 [Download my Resume (PDF)](/Resume_Mikhail_Fetisov.pdf)
+</div>
 
 ---
 
@@ -608,6 +602,36 @@ Outside of Game Design, I play drums in a music band: teamwork, rhythm and itera
   </p>
 
 </details>
+
+---
+
+## About Me
+
+**Age:** 36
+
+**Location:** Moscow, willing to relocate
+
+**Languages:**
+
+- Russian (native)
+- English (C1)
+- Japanese (JLPT N3)
+
+**Game Preferences**
+
+I draw inspiration from **2D platformers, CRPGs, and strategy games**.
+
+Favorite titles include:
+
+- *Hollow Knight* (level & world structure, tight 2D combat loop)
+- *The Witcher 3* (narrative design and meaningful player choices)
+- *Heroes of Might and Magic III / Frostpunk / Against the Storm* (macro decision-making and systemic storytelling)
+
+**Hobbies:**
+
+Outside of Game Design, I play drums in a music band: teamwork, rhythm and iteration are also part of my creative process.
+
+**Tools:** Unity, Unreal Engine 5, Git, Jira, Confluence, Figma, Trello, Google Sheets / Excel, Blender, AI-assisted tools (ChatGPT, Claude, Midjourney)
 
 ---
 
