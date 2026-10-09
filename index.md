@@ -16,9 +16,4 @@ title: Mikhail Fetisov — Game Designer (Systems / Content / 3C)
 {% include_relative README.md %}
 
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-
-<script>
-  const lightbox = GLightbox({
-    selector: '.glightbox'
-  });
-</script>
+<script src="/assets/js/gallery.js"></script>
