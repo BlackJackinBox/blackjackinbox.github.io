@@ -195,10 +195,10 @@ hr {
    ========================= */
 
 .gallery-thumbnails {
-    position: absolute;
+    position: fixed;
     left: 50%;
     bottom: 18px;
-    z-index: 99999;
+    z-index: 100000;
 
     display: flex;
     gap: 8px;
@@ -207,10 +207,11 @@ hr {
     padding: 8px;
 
     overflow-x: auto;
+    overflow-y: hidden;
 
     transform: translateX(-50%);
 
-    background: rgba(15, 17, 21, 0.88);
+    background: rgba(15, 17, 21, 0.9);
     border: 1px solid #2b2f36;
     border-radius: 10px;
 
@@ -230,12 +231,11 @@ hr {
     overflow: hidden;
 
     background: #171a20;
-    border: 1px solid #3a4049;
+    border: 2px solid transparent;
     border-radius: 6px;
 
     cursor: pointer;
-
-    opacity: 0.65;
+    opacity: 0.55;
 
     transition:
         opacity 0.15s ease,
@@ -245,9 +245,12 @@ hr {
 
 .gallery-thumbnail:hover {
     opacity: 1;
-    border-color: #7cb7ff;
-
     transform: translateY(-2px);
+}
+
+.gallery-thumbnail.active {
+    opacity: 1;
+    border-color: #7cb7ff;
 }
 
 .gallery-thumbnail img {
@@ -267,7 +270,7 @@ hr {
     position: absolute;
     inset: 0;
 
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.25);
 }
 
 .gallery-thumbnail-play {
@@ -289,7 +292,6 @@ hr {
 @media (max-width: 700px) {
     .gallery-thumbnails {
         bottom: 10px;
-
         max-width: 92vw;
     }
 

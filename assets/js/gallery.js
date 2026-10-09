@@ -4,7 +4,6 @@ const lightbox = GLightbox({
 
 let activeGallery = null;
 
-/* Запоминаем, какую именно галерею открыл пользователь */
 document.addEventListener('click', function (event) {
     const link = event.target.closest('.glightbox');
 
@@ -13,13 +12,16 @@ document.addEventListener('click', function (event) {
     activeGallery = link.dataset.gallery || null;
 });
 
-/* Создаём полосу миниатюр */
-function createGalleryThumbnails() {
-    const oldStrip = document.querySelector('.gallery-thumbnails');
+function removeGalleryThumbnails() {
+    const existing = document.querySelector('.gallery-thumbnails');
 
-    if (oldStrip) {
-        oldStrip.remove();
+    if (existing) {
+        existing.remove();
     }
+}
+
+function createGalleryThumbnails() {
+    removeGalleryThumbnails();
 
     if (!activeGallery) return;
 
@@ -31,17 +33,19 @@ function createGalleryThumbnails() {
 
     if (items.length <= 1) return;
 
-    const container = document.querySelector('.gcontainer');
+    const lightboxBody = document.querySelector('#glightbox-body');
 
-    if (!container) return;
+    if (!lightboxBody) return;
 
     const strip = document.createElement('div');
     strip.className = 'gallery-thumbnails';
 
     items.forEach((item, index) => {
-        const thumb = document.createElement('button');
-        thumb.className = 'gallery-thumbnail';
-        thumb.type = 'button';
+        const button = document.createElement('button');
+
+        button.type = 'button';
+        button.className = 'gallery-thumbnail';
+        button.dataset.index = index;
 
         const sourceImage = item.querySelector('img');
 
@@ -51,42 +55,66 @@ function createGalleryThumbnails() {
             image.src = sourceImage.src;
             image.alt = sourceImage.alt || '';
 
-            thumb.appendChild(image);
+            button.appendChild(image);
         }
 
-        /* Для YouTube-видео добавляем значок Play */
         if (item.dataset.type === 'video') {
-            thumb.classList.add('gallery-thumbnail-video');
+            button.classList.add('gallery-thumbnail-video');
 
             const play = document.createElement('span');
             play.className = 'gallery-thumbnail-play';
             play.textContent = '▶';
 
-            thumb.appendChild(play);
+            button.appendChild(play);
         }
 
-        thumb.addEventListener('click', function () {
+        button.addEventListener('click', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+
             lightbox.goToSlide(index);
+            updateActiveThumbnail(index);
         });
 
-        strip.appendChild(thumb);
+        strip.appendChild(button);
     });
 
-    container.appendChild(strip);
+    lightboxBody.appendChild(strip);
+
+    updateActiveThumbnail(lightbox.getActiveSlideIndex());
 }
 
-/* После открытия GLightbox создаём thumbnails */
+function updateActiveThumbnail(index) {
+    const thumbnails = document.querySelectorAll('.gallery-thumbnail');
+
+    thumbnails.forEach((thumbnail, i) => {
+        thumbnail.classList.toggle('active', i === index);
+    });
+
+    const active = document.querySelector('.gallery-thumbnail.active');
+
+    if (active) {
+        active.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest',
+            inline: 'center'
+        });
+    }
+}
+
 lightbox.on('open', function () {
-    createGalleryThumbnails();
+    setTimeout(function () {
+        createGalleryThumbnails();
+    }, 50);
 });
 
-/* После закрытия чистим их */
+lightbox.on('slide_changed', function ({ current }) {
+    if (!current) return;
+
+    updateActiveThumbnail(current.slideIndex);
+});
+
 lightbox.on('close', function () {
-    const strip = document.querySelector('.gallery-thumbnails');
-
-    if (strip) {
-        strip.remove();
-    }
-
+    removeGalleryThumbnails();
     activeGallery = null;
 });
