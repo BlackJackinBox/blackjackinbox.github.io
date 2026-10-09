@@ -198,7 +198,7 @@ hr {
     position: fixed;
     left: 50%;
     bottom: 18px;
-    z-index: 2147483647;
+    z-index: 2147483647 !important;
 
     display: flex;
     gap: 8px;
@@ -216,6 +216,11 @@ hr {
     border-radius: 10px;
 
     backdrop-filter: blur(8px);
+}
+
+#glightbox-body,
+.glightbox-container {
+    z-index: 999999 !important;
 }
 
 .gallery-thumbnail {
