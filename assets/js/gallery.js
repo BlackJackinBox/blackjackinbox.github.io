@@ -4,13 +4,20 @@ const lightbox = GLightbox({
 
 let activeGallery = null;
 
+
+/* ВАЖНО:
+   true в конце включает capture phase.
+   Благодаря этому мы узнаём галерею ДО того,
+   как GLightbox обработает клик.
+*/
 document.addEventListener('click', function (event) {
     const link = event.target.closest('.glightbox');
 
     if (!link) return;
 
     activeGallery = link.dataset.gallery || null;
-});
+}, true);
+
 
 function removeGalleryThumbnails() {
     const existing = document.querySelector('.gallery-thumbnails');
@@ -19,6 +26,7 @@ function removeGalleryThumbnails() {
         existing.remove();
     }
 }
+
 
 function createGalleryThumbnails() {
     removeGalleryThumbnails();
@@ -40,6 +48,7 @@ function createGalleryThumbnails() {
     const strip = document.createElement('div');
     strip.className = 'gallery-thumbnails';
 
+
     items.forEach((item, index) => {
         const button = document.createElement('button');
 
@@ -47,6 +56,8 @@ function createGalleryThumbnails() {
         button.className = 'gallery-thumbnail';
         button.dataset.index = index;
 
+
+        /* Берём thumbnail прямо из картинки на странице */
         const sourceImage = item.querySelector('img');
 
         if (sourceImage) {
@@ -58,6 +69,8 @@ function createGalleryThumbnails() {
             button.appendChild(image);
         }
 
+
+        /* Значок play для YouTube */
         if (item.dataset.type === 'video') {
             button.classList.add('gallery-thumbnail-video');
 
@@ -68,6 +81,7 @@ function createGalleryThumbnails() {
             button.appendChild(play);
         }
 
+
         button.addEventListener('click', function (event) {
             event.preventDefault();
             event.stopPropagation();
@@ -76,22 +90,34 @@ function createGalleryThumbnails() {
             updateActiveThumbnail(index);
         });
 
+
         strip.appendChild(button);
     });
 
+
     lightboxBody.appendChild(strip);
 
-    updateActiveThumbnail(lightbox.getActiveSlideIndex());
+    updateActiveThumbnail(
+        lightbox.getActiveSlideIndex()
+    );
 }
 
+
 function updateActiveThumbnail(index) {
-    const thumbnails = document.querySelectorAll('.gallery-thumbnail');
+    const thumbnails = document.querySelectorAll(
+        '.gallery-thumbnail'
+    );
 
     thumbnails.forEach((thumbnail, i) => {
-        thumbnail.classList.toggle('active', i === index);
+        thumbnail.classList.toggle(
+            'active',
+            i === index
+        );
     });
 
-    const active = document.querySelector('.gallery-thumbnail.active');
+    const active = document.querySelector(
+        '.gallery-thumbnail.active'
+    );
 
     if (active) {
         active.scrollIntoView({
@@ -102,17 +128,26 @@ function updateActiveThumbnail(index) {
     }
 }
 
+
 lightbox.on('open', function () {
-    setTimeout(function () {
+    /*
+       DOM самого GLightbox уже создаётся,
+       но даём ему один кадр закончить построение.
+    */
+    requestAnimationFrame(function () {
         createGalleryThumbnails();
-    }, 50);
+    });
 });
+
 
 lightbox.on('slide_changed', function ({ current }) {
     if (!current) return;
 
-    updateActiveThumbnail(current.slideIndex);
+    updateActiveThumbnail(
+        current.slideIndex
+    );
 });
+
 
 lightbox.on('close', function () {
     removeGalleryThumbnails();
