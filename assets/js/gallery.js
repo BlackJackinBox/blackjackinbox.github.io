@@ -100,7 +100,7 @@ function createGalleryThumbnails(trigger, activeIndex = 0) {
      */
     document.body.appendChild(strip);
 
-    updateActiveThumbnail(activeIndex);
+    updateActiveThumbnailByTrigger(trigger);
 }
 
 
@@ -108,18 +108,29 @@ function createGalleryThumbnails(trigger, activeIndex = 0) {
    ACTIVE THUMBNAIL
    ========================= */
 
-function updateActiveThumbnail(index) {
+function updateActiveThumbnailByTrigger(trigger) {
+    if (!trigger || !currentGalleryName) return;
+
+    const items = Array.from(
+        document.querySelectorAll(
+            `.glightbox[data-gallery="${currentGalleryName}"]`
+        )
+    );
+
+    const localIndex = items.indexOf(trigger);
+
+    if (localIndex === -1) return;
+
     const thumbnails = document.querySelectorAll(
         '.gallery-thumbnail'
     );
 
-    thumbnails.forEach((thumbnail, i) => {
+    thumbnails.forEach((thumbnail, index) => {
         thumbnail.classList.toggle(
             'active',
-            i === index
+            index === localIndex
         );
     });
-
 
     const active = document.querySelector(
         '.gallery-thumbnail.active'
@@ -165,8 +176,11 @@ lightbox.on('slide_after_load', function (data) {
     if (!data || !data.trigger) return;
 
     createGalleryThumbnails(
-        data.trigger,
-        data.slideIndex
+        data.trigger
+    );
+
+    updateActiveThumbnailByTrigger(
+        data.trigger
     );
 });
 
@@ -176,17 +190,14 @@ lightbox.on('slide_after_load', function (data) {
  * выделенную миниатюру.
  */
 lightbox.on('slide_changed', function ({ current }) {
-    if (!current) return;
+    if (!current || !current.trigger) return;
 
-    if (current.trigger) {
-        createGalleryThumbnails(
-            current.trigger,
-            current.slideIndex
-        );
-    }
+    createGalleryThumbnails(
+        current.trigger
+    );
 
-    updateActiveThumbnail(
-        current.slideIndex
+    updateActiveThumbnailByTrigger(
+        current.trigger
     );
 });
 
